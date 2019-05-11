@@ -1,12 +1,14 @@
-l1=list(input(':'))
-l2=list(input(':'))
-l3=list(input(':'))
-l4=list(input(':'))
-l5=list(input(':'))
+#Desafio Criado por Reinaldo Arakaki (Fatec São José dos Campos) | Adaptado por erich.rodriguesf | Competição: Interfatecs 2014 2ª fase
+#https://ucoder.com.br/problems/1019/
+
+l1=list(input())
+l2=list(input())
+l3=list(input())
+l4=list(input())
+l5=list(input())
 matrix = [l1,l2,l3,l4,l5]
 estagios = 1
 def show(estagios):
-  print("*** Estagio:",estagios,"***")
   print(''.join(matrix[0]))
   print(''.join(matrix[1]))
   print(''.join(matrix[2]))
@@ -36,7 +38,7 @@ def matrizes():
 loop = True
 while loop:
   fut_matrix = []
-  show(estagios)
   loop = matrizes()
   estagios += 1
   
+show(estagios)
