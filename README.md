@@ -1,2 +1,1 @@
-# LPP
-Lógica de Programação com Python
+### Lógica de Programação com Python
