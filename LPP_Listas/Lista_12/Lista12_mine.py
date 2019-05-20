@@ -65,14 +65,18 @@ def zf(n):
 # Verifique quantas vezes o dígito 2 aparece entre 0 e n-1
 # Exemplo: para n = 20 o dígito 2 aparece duas vezes entre 0 e 19
 def conta2(n):
-  return
+  return ''.join([str(x) for x in range(n)]).count('2')
 
 # L. inicio em potencia de 2
 # Dado um número inteiro positivo n retorne a primeira potência de 2
 # que tenha o início igual a n
 # Exemplo: para n = 65 retornará 16 pois 2**16 = 65536
 def inip2(n):
-  return
+  k = p = 0
+  while not str(k).startswith(str(n)):
+    k=2**p
+    p+=1
+  return p-1
 
 def test(obtido, esperado):
   if obtido == esperado:
