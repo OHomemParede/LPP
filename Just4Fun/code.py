@@ -1,3 +1,5 @@
+#créditos para meu grupo da aula de Hardware
+
 import parallel #importa a biblioteca, parallel, que ira controlar as saidas digitais
 import time #esse modulo, time, sera usado para a funcao "pisca" 
  
